@@ -1,5 +1,5 @@
-function homeMain(us){
+export default function homeMain(us){
     document.getElementById("root").innerHTML = `
-        <span>${us}</span>
+        <span>${us.teste}</span>
     `
 }

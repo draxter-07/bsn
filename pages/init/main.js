@@ -1,10 +1,8 @@
-function changeVar(){
-    us = 1;
-    constructMain(us)
-}
+import constructMain from "../construct.js"
 
-function initMain(us){
+export default function initMain(){
     document.getElementById("root").innerHTML = `
-        <button onclick=changeVar()>clique</button>
+        <button id="1">clique</button>
     `
+    document.getElementById('1').onclick = function changeVar(){var us = {teste: "teste"};constructMain(us)}
 }
