@@ -1,3 +1,4 @@
 import constructMain from "./pages/construct.js"
 
-constructMain(null)
+axios.defaults.headers.common["ngrok-skip-browser-warning"] = "69420"
+constructMain()

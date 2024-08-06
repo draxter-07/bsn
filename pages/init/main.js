@@ -1,7 +1,11 @@
-import constructMain from "../construct.js"
-import topoDiv from "./comps/top/main.js";
+import topDiv from "./comps/top/main.js"
+import bodyDiv from "./comps/body/main.js"
+
+function initPageAddFunctionsToButtons(){
+}
 
 export default function initMain(){
-    document.getElementById("root").innerHTML = topoDiv()
-    document.getElementById('1').onclick = function changeVar(){var us = {teste: "teste"};constructMain(us)}
+    const root = document.getElementById("root")
+    root.innerHTML = topDiv() + bodyDiv()
+    initPageAddFunctionsToButtons()
 }

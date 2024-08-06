@@ -1,0 +1,28 @@
+.initBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.initBodyBlock{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    padding: 20px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 15px;
+    background: var(--colorBlue);
+}
+
+.initBodyBlockTitle{
+    color: var(--colorOrange);
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0px 0px 10px 0px;
+}
+
+.initBodyBlockText{
+    color: rgb(255, 255, 255);
+}

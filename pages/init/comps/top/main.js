@@ -1,8 +1,13 @@
-import { topoDivStyle } from "./style.js"
-
-export default function topoDiv(){
+export default function topDiv(){
     return(`
-        <div style="${topoDivStyle}">BSN</div>
-        <button id="1">clique</button>
+        <div class="initTop">
+            <div class="initTopLogo">
+                BSN
+            </div>
+            <div class="initTopButtons">
+                <button>Criar conta</button>
+                <button>Acessar</button>
+            </div>
+        </div>
     `)
 }

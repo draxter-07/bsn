@@ -1,0 +1,32 @@
+.initTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.initTopLogo{
+    color: var(--colorOrange);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.initTopButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+}
+
+.initTopButtons>button{
+    background: var(--colorBlue);
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    transition: box-shadow var(--transitionTime);
+}
+
+.initTopButtons>button:hover{
+    box-shadow: 0px 0px 20px 0px var(--colorOrange);
+}
